@@ -8,15 +8,17 @@ int ledPin = 13;     // Built-in LED for status indicator
 bool isCleanerOn = false;
 bool initialize = true;
 unsigned long currentTime = 0;
-
+unsigned long startTime = 0;
+unsigned long onTime = 0;
+unsigned long offTime = 0;
 
 
 //Parameters for ultrasonic cleaning. 
 //Machine will turn on for "onTimer" minutes then off for "offTimer" minutes
 //until "totalDuration" is exceeded. 
-int onTimer = 25 * 60 * 1000; // Minutes in milliseconds
-int offTimer = 5 * 60 * 1000; // Minutes in milliseconds
-int totalDuration = 5 * 60 * 60 * 1000 // Hours in milliseconds
+unsigned long onTimer = 25 * 60; // seconds
+unsigned long offTimer = 5 * 60; // seconds
+unsigned long totalDuration = 5 * 60 * 60; // Hours in seconds
 
 
 void setup() {
@@ -29,7 +31,7 @@ void setup() {
 
 void loop() {
   // Get the current time
-  unsigned long currentTime = millis();
+  unsigned long currentTime = millis()/1000;
 
   // Check if the switch is turned on
   if (digitalRead(switchPin) == LOW) {
@@ -85,6 +87,6 @@ void loop() {
 //rotates servo to press button
 void pressButton(){
     myservo.write(90);
-    delay(500);
-    myserbo.write(0);
+    delay(1000);
+    myservo.write(0);
 }
