@@ -1,1 +1,6 @@
-//changelog here
+This is the changelog for the Ultrasonic Cleaner Servo Button Actuator.
+## [Version number] - 2023-XX-XX
+
+### Added
+
+- Change description
