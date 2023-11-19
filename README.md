@@ -27,7 +27,7 @@ git clone https://github.com/UBC-Brewing-Internet-of-Things/Ultrasonic-Cleaner-S
 ```
 
 __Install Dependencies:__
-Ensure that you have the necessary Arduino libraries installed. Refer to the documentation [here](https://www.arduino.cc/en/Guide) for details.'''
+Ensure that you have the necessary Arduino libraries installed. Refer to the documentation [here](https://www.arduino.cc/en/Guide) for details.
 
 __Connect Hardware:__
 Connect the servo motor to the designated pins on the Arduino board and ensure proper wiring with the ultrasonic cleaner.  
