@@ -10,9 +10,8 @@ The Ultrasonic Cleaner Servo Button Actuator (UCB) is a project developed by Nic
 ## Hardware Requirements
 To implement the UCB, you will need the following hardware:
 
-- __Arduino board__ (e.g., Arduino Uno)
-- __Servo motor__
-- __Ultrasonic cleaner device__
+- __Arduino board__ (e.g., Arduino Nano)
+- __SG-90 Servo Motor__
 
 ## Getting Started
 __Clone the Repository:__
