@@ -4,31 +4,38 @@
 The Ultrasonic Cleaner Servo Button Actuator (UCB) is a project developed by Nicholas Bratvold to enhance the functionality of ultrasonic cleaners by automating button presses using a servo motor. This open-source project aims to provide an affordable and customizable solution for users looking to automate their ultrasonic cleaning processes.
 
 ## Features
-- Button Automation: The UCB uses a servo motor to press the buttons on ultrasonic cleaner devices, allowing for hands-free operation.
-- Customizable Settings: Users can easily customize the code to adapt it to different ultrasonic cleaner models and button configurations.
-- Compact Design: The hardware design is compact and can be easily integrated into existing ultrasonic cleaner setups.
+- __Button Automation:__ The UCB uses a servo motor to press the buttons on ultrasonic cleaner devices, allowing for hands-free operation.
+- __Customizable Settings:__ Users can easily customize the code to adapt it to different ultrasonic cleaner models and button configurations.
+- __Compact Design:__ The hardware design is compact and can be easily integrated into existing ultrasonic cleaner setups.
 
 ## Hardware Requirements
 To implement the UCB, you will need the following hardware:
 
-- Arduino board (e.g., Arduino Uno)
-- Servo motor
-- Ultrasonic cleaner device
+- __Arduino board__ (e.g., Arduino Uno)
+- __Servo motor__
+- __Ultrasonic cleaner device__
 
 ## Getting Started
-Clone the Repository:
-git clone https://github.com/nicholasbratvold/UCB.git
+__Clone the Repository:__
+Open a terminal or command prompt on your local machine;
 
-Install Dependencies:
-Ensure that you have the necessary Arduino libraries installed. Refer to the documentation [here](https://www.arduino.cc/en/Guide) for details. 
+```bash
+cd path/to/your/local/directory
+```
+```bash
+git clone https://github.com/UBC-Brewing-Internet-of-Things/Ultrasonic-Cleaner-Servo-Button-Actuator.git
+```
 
-Connect Hardware:
+__Install Dependencies:__
+Ensure that you have the necessary Arduino libraries installed. Refer to the documentation [here](https://www.arduino.cc/en/Guide) for details.'''
+
+__Connect Hardware:__
 Connect the servo motor to the designated pins on the Arduino board and ensure proper wiring with the ultrasonic cleaner.  
 
-Upload Code:
+__Upload Code:__
 Open the Arduino IDE, load the UCB code, and upload it to your Arduino board.
 
-Run the UCB:
+__Run the UCB:__
 Power on your ultrasonic cleaner and Arduino board. The UCB will automate the button presses according to the programmed sequence.
 
 ## CAD Files
