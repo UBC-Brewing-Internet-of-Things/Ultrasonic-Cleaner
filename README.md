@@ -18,9 +18,6 @@ __Clone the Repository:__
 Open a terminal or command prompt on your local machine;
 
 ```bash
-cd path/to/your/local/directory
-```
-```bash
 git clone https://github.com/UBC-Brewing-Internet-of-Things/Ultrasonic-Cleaner-Servo-Button-Actuator.git
 ```
 
