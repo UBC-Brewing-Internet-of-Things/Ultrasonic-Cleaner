@@ -5,7 +5,6 @@ The Ultrasonic Cleaner Servo Button Actuator (UCB) is a project developed by Nic
 
 ## Features
 - __Button Automation:__ The UCB uses a servo motor to press the buttons on ultrasonic cleaner devices, allowing for hands-free operation.
-- __Customizable Settings:__ Users can easily customize the code to adapt it to different ultrasonic cleaner models and button configurations.
 - __Compact Design:__ The hardware design is compact and can be easily integrated into existing ultrasonic cleaner setups.
 
 ## Hardware Requirements
