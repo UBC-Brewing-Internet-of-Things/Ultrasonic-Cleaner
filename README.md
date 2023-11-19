@@ -46,7 +46,7 @@ Click [here](https://cad.onshape.com/documents/cc328801bbe54f035c3b7bfe/w/303cb7
 ## Prototypes
 This is the current setup for the UCB:
 
-![Image 1](images/version 1.0.png)
-![Image 2](images/version 1.1.png)
+![Image 1](images/version 1.0.jpg)
+![Image 2](images/version 1.1.jpg)
 
 
