@@ -44,9 +44,10 @@ We've 3D-printed a compact enclosure to house the UCB system, ensuring a tidy an
 Click [here](https://cad.onshape.com/documents/cc328801bbe54f035c3b7bfe/w/303cb7792c4bb231bbfc453c/e/3c9fc0f5cdcdb3211f134436?renderMode=0&uiState=655960af94201b62afda7c2c) for access to the CAD files
 
 ## Prototypes
-This is the current setup for the UCB:
+This is our current setup:
 
-![Image 1](images/version 1.0.jpg)
-![Image 2](images/version 1.1.jpg)
+![Image 1](images/prototype1.jpg)
+![Image 2](images/prototype2.jpg)
+
 
 
